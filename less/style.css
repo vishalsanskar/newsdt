@@ -33,7 +33,7 @@ header.header {
   box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
 }
 header.header.header.active {
-  background-color: var(--text-primary);
+  background-color: #afafaf;
   color: var(--text-secondary) !important;
   box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
 }
