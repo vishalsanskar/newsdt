@@ -110,7 +110,7 @@ section.hero-section #carouselExample.carousel.slide .carousel-inner .carousel-i
   padding: 10px 50px;
 }
 footer {
-  background: var(--color-primary);
+  background: #afafaf;
 }
 footer a.footer_logo {
   width: auto;
