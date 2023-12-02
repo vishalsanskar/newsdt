@@ -10,6 +10,7 @@
     --menu-font-color: #2b2b2b;
     --active-color:#252a6a;
     --heading-font:40px;
+    --text-content-color: #647495;
 
 
 
@@ -38,7 +39,7 @@
     padding-bottom: 10px;
 }
 .content{
-    color: #647495;
+    color: var(--text-content-color);
     font-size: 16px;
     line-height: 24px;
 }
@@ -170,7 +171,7 @@ header.header{
                     color: var(--active-color);
           
                 }
-
+               
             }
            
         }
@@ -205,8 +206,22 @@ section.franchise-programs-sec{
     .container{
         .row{
             .franchise-program{
-                border: solid 1px ;
                 text-align: center;
+                padding: 35px;
+                border-radius: 18px;
+                box-shadow: 0 0 20px rgba(0,0,0,.2);
+                overflow: hidden;
+
+                h1{
+                    color: #252a6a;
+    font-size: 26px;
+    padding: 0px 0px;
+    margin-top: 17px;
+                }
+                p{
+                    color: var(--text-content-color);
+                }
+
 
             }
         }
@@ -214,7 +229,24 @@ section.franchise-programs-sec{
 }
 
 
-
+// section.franchise-programs-sec .container .row .franchise-program {
+//     /* border: solid 1px #bbbecf; */
+//     text-align: center;
+//     padding: 35px;
+//     border-radius: 18px;
+//     /* background: #eff2ff; */
+//     box-shadow: 0 0 20px rgba(0,0,0,.2);
+//     overflow: hidden;
+// }
+h1 {
+    color: #252a6a;
+    font-size: 26px;
+    padding: 0px 0px;
+    margin-top: 17px;
+}
+// p {
+//     color: #64789e;
+// }
 
 
 
@@ -236,7 +268,8 @@ section.franchise-programs-sec{
 footer{
     // background: var(--color-primary);
     // background: var(--primary-background-color);
-    background: #273746;
+    // background: #273746;
+    background: #EAECEE;
    
       
                 a.footer_logo{
@@ -248,9 +281,23 @@ footer{
                         height: 100%;
                     }
                 }
+
+                .footer-links {
+                    h5 {
+                        padding-top: 86px;
+                        }
+                    ul{
+                        list-style: none;
+                        li{
+                            a{
+                                text-decoration: none;
+                                color: #333;
+                            }
+                        }
+                    }
             
         }
-   
+    }
 
 
 
