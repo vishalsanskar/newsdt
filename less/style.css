@@ -7,9 +7,12 @@
   --header-height: 80px;
   --primary-background-color: #f2f2f2;
   --secondary-background-color: #ccc;
+  --menu-font-color: #2b2b2b;
+  --active-color: #252a6a;
+  --heading-font: 40px;
 }
 body {
-  font-family: inter, sans-serif;
+  font-family: 'Outfit', sans-serif;
   box-sizing: border-box;
 }
 ul,
@@ -19,6 +22,25 @@ li {
 }
 .sec-top-bottom {
   padding: 100px 0px;
+}
+.title-head {
+  font-size: var(--heading-font);
+  color: var(--active-color);
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.sub-title {
+  font-size: 22px;
+  color: #1145d5;
+  padding-bottom: 10px;
+}
+.content {
+  color: #647495;
+  font-size: 16px;
+  line-height: 24px;
+}
+.heading_section {
+  padding-bottom: 80px;
 }
 header.header {
   position: fixed;
@@ -46,8 +68,8 @@ header.header nav div.container a.navbar-brand.header-logo {
   height: 80px;
 }
 header.header nav div.container a.navbar-brand.header-logo img {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
 }
 header.header nav .header-main .header-top-contact ul {
   list-style: none;
@@ -59,14 +81,30 @@ header.header nav .header-main .header-top-contact ul li {
 }
 header.header nav .header-main .header-top-contact ul li a {
   text-decoration: none;
-  color: #333333;
+  color: var(--menu-font-color);
+  font-family: 'Outfit';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0px;
 }
 header.header nav .header-main .header-top-contact ul li.head-franchies-btn {
   background: var(--color-primary);
 }
 header.header nav .header-main .header-top-contact ul li.head-franchies-btn a {
+  font-size: 16px;
   color: var(--text-secondary);
   font-weight: 600;
+}
+header.header nav .header-top-bottom {
+  padding: 10px 0px;
+}
+header.header nav .header-top-bottom ul li a.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--menu-font-color);
+}
+header.header nav .header-top-bottom ul li a.nav-link.active {
+  color: var(--active-color);
 }
 section.hero-section {
   margin-top: calc(var(--header-height) + 0px);
@@ -91,6 +129,10 @@ section.hero-section #carouselExample.carousel.slide .carousel-inner .carousel-i
 #sdt-eduction {
   background: var(--primary-background-color);
 }
+#sdt-eduction .container .row .col-md-7 h1 {
+  font-size: var(--heading-font);
+  color: var(--active-color);
+}
 #sdt-eduction .sdt-4block {
   background: var(--secondary-background-color);
   margin: 0px;
@@ -100,6 +142,18 @@ section.hero-section #carouselExample.carousel.slide .carousel-inner .carousel-i
   padding: 20px;
   background: linear-gradient(to bottom right, #2667b3 0, #4d96ec 70%);
   border-radius: 10px;
+  background: linear-gradient(to right, #36415e 0, #1b1f30 100%);
+}
+#sdt-eduction .franchise-enquriy-from h4 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+}
+section.franchise-programs-sec .container .row .franchise-program {
+  border: solid 1px ;
+  text-align: center;
 }
 #newsletter .row.newsletter-part {
   background: linear-gradient(85.36deg, #A955DB 0.85%, #FF8648 101.42%);
@@ -107,7 +161,7 @@ section.hero-section #carouselExample.carousel.slide .carousel-inner .carousel-i
   padding: 10px 50px;
 }
 footer {
-  background: var(--primary-background-color);
+  background: #273746;
 }
 footer a.footer_logo {
   width: auto;
