@@ -182,6 +182,27 @@ h1 {
 footer {
   background: #EAECEE;
 }
+footer .container .row .foorter-about ul li {
+  display: inline-flex;
+  list-style: none;
+  margin-right: 10px;
+}
+footer .container .row .foorter-about ul li span {
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(to right, #36415e 0, #1b1f30 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+footer .container .row .foorter-about ul li span a {
+  text-decoration: none;
+}
+footer .container .row .foorter-about ul li span a i {
+  font: 30px;
+  color: #fff;
+}
 footer a.footer_logo {
   width: auto;
   height: 70px;
@@ -197,9 +218,69 @@ footer .footer-links h5 {
 footer .footer-links ul {
   list-style: none;
 }
+footer .footer-links ul li {
+  line-height: 30px;
+}
 footer .footer-links ul li a {
   text-decoration: none;
   color: #333;
+}
+footer .footer-links.contact h5 {
+  padding-top: 86px;
+}
+footer .footer-links.contact ul {
+  list-style: none;
+}
+footer .footer-links.contact ul li {
+  position: relative;
+  padding-left: 25px;
+  line-height: 30px;
+}
+footer .footer-links.contact ul li span {
+  position: absolute;
+  top: 1px;
+  left: 0px;
+}
+footer .footer-links.contact ul li span a {
+  text-decoration: none;
+  color: #333;
+}
+footer .footer-map ul li {
+  list-style: none;
+}
+footer .footer-map ul li iframe {
+  width: 100%;
+  height: 307px;
+  padding-top: 111px;
+}
+footer .footer-menu {
+  padding-bottom: 20px;
+}
+footer .footer-menu ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+footer .footer-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+.footer-copy-right {
+  padding: 15px;
+  background: #b5b5b5;
+}
+.footer-copy-right h6 {
+  margin-bottom: 0px;
+  color: #333;
+}
+.footer-copy-right .bottom_footer_link {
+  text-align: end;
+}
+.footer-copy-right .bottom_footer_link a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #333;
+  font-weight: 500;
 }
 main {
   margin-top: 96px;
@@ -226,14 +307,13 @@ main section.contact-banner div.container div.row div.col-md-5 div.map-form text
 }
 main section.contact-banner div.container div.row .school-map {
   width: 100%;
-  height: 90%;
+  height: 60%;
 }
 main section.contact-banner div.container div.row .school-map iframe {
   width: 100%;
   height: 100%;
 }
 main section.contact-info div.row div.contact-info-inner {
-  padding: 20px;
   text-align: center;
 }
 main section.contact-info div.row div.contact-info-inner .icon-box {
@@ -254,16 +334,16 @@ main section.contact-info div.row div.contact-info-inner .icon-box .shadow-icon 
   font-size: 26px;
   color: #fff;
 }
-section.conatact-hero-banner.sec-top-bottom {
+main section.conatact-hero-banner.sec-top-bottom {
   position: relative;
 }
-section.conatact-hero-banner.sec-top-bottom {
+main section.conatact-hero-banner.sec-top-bottom {
   background-image: url(https://www.bvmsolution.com/images/contact-bg-banner.webp);
   background-size: 100%;
   background-position: center;
   padding: 180px 0px;
 }
-section.conatact-hero-banner.sec-top-bottom:before {
+main section.conatact-hero-banner.sec-top-bottom:before {
   content: '';
   top: 0px;
   width: 100%;
@@ -273,14 +353,14 @@ section.conatact-hero-banner.sec-top-bottom:before {
   left: 0;
   background-color: #191a1c94;
 }
-.container {
+main .container {
   position: relative;
   z-index: 1;
 }
-h1.text-white {
+main h1.text-white {
   font-weight: 600;
 }
-h6.banner-text {
+main h6.banner-text {
   color: #fff;
   line-height: 30px;
   font-size: 16px;
