@@ -368,6 +368,30 @@ main h6.banner-text {
   letter-spacing: 2px;
   margin-top: 20px;
 }
+section .container .row .carrer-form {
+  margin-top: -150px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+section .container .row .carrer-form .CareerApply {
+  margin-top: 5px;
+  color: var(--active-color);
+}
+.about-page-banner img {
+  width: 100%;
+  height: 100%;
+}
+section.school-about .video-wrapper {
+  width: 100%;
+  height: 32  0px;
+}
+section.school-about .video-wrapper video {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex!important;
