@@ -178,6 +178,7 @@ h1 {
   background: linear-gradient(85.36deg, #A955DB 0.85%, #FF8648 101.42%);
   border-radius: 15px;
   padding: 10px 50px;
+  background: var(--primary-background-color);
 }
 footer {
   background: #EAECEE;
@@ -735,6 +736,12 @@ main h6.banner-text {
   font-weight: 400;
   letter-spacing: 2px;
   margin-top: 20px;
+}
+main .affiliation-sec {
+  background-color: var(--primary-background-color);
+}
+main .affiliated-img {
+  text-align: end;
 }
 main .btn-text-expander {
   display: inline-block;
