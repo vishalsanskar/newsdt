@@ -3,6 +3,19 @@
 
 <head>
   <!-- Required meta tags -->
+
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> -->
+
+  <link rel="icon" type="image/x-icon" href="image/fave-icone.svg">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -50,8 +63,8 @@
           <div class="header-main">
             <div class="header-top-contact">
               <ul>
-                <li><a href="#">+91 1234569870</a></li>
-                <li><a href="#">info@gmail.com</a></li>
+                <li><i class="fa-solid fa-phone"></i> <a href="#">+91 1234569870</a></li>
+                <li><i class="fa-solid fa-envelope"></i> <a href="#">info@gmail.com</a></li>
                 <li class="head-franchies-btn"><a href="#">FRANCHISE OPPORTUNITY</a></li>
               </ul>
             </div>
@@ -133,7 +146,12 @@
 
   <!-- hero section start -->
   <section class="hero-section">
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="100" >
           <img src="./image/banner1.jpg" class="d-block w-100" alt="banner1">
@@ -146,11 +164,11 @@
         </div>
       </div>
       <div class="hero_nav_btn">
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -624,14 +642,14 @@
         <div class="col-md-4 footer-links footer-featured-links">
           <h5 class="">Featured Links</h5>
           <ul>
-            <li><a href="#">About SDT</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Mission / vission</a></li>
-            <li><a href="#">Our Achivement</a></li>
-            <li><a href="#">Academic</a></li>
-            <li><a href="#">Sports</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Sitemap</a></li>
+            <li><i class="fa-solid fa-angles-right me-2"></i><a href="#">About SDT</a></li>
+            <li><i class="fa-solid fa-angles-right me-2"></i><a href="#">Our Team</a></li>
+            <li><i class="fa-solid fa-angles-right me-2"></i><a href="#">Mission / vission</a></li>
+            <li><i class="fa-solid fa-angles-right me-2"></i><a href="#">Our Achivement</a></li>
+            <li><i class="fa-solid fa-angles-right me-2"></i><a href="#">Academic</a></li>
+            <li><i class="fa-solid fa-angles-right me-2"></i><a href="#">Sports</a></li>
+            <li><i class="fa-solid fa-angles-right me-2"></i><a href="#">Careers</a></li>
+            <li><i class="fa-solid fa-angles-right me-2"></i><a href="#">Sitemap</a></li>
           </ul>
         </div>
         <div class="col-md-3 footer-links contact">
@@ -639,8 +657,7 @@
           <ul>
             <li><span><i class="fa-solid fa-envelope"></i></span><a href="#">sdt.info@gmail.com</a></li>
             <li><span><i class="fa-solid fa-phone"></i></span><a href="#">+91 9460081106</a></li>
-            <li><span><i class="fa-solid fa-location-dot"></i></span>MDN Edify Education (P) Ltd, Campus, Survey No.
-              523, Opp.Apparel Park, Gundla Pochampally, Medchal Mandal, R.R. District, Telangana, India - 500 100.</li>
+            <li><span><i class="fa-solid fa-location-dot"></i></span>4B, Naryana opposite, CM House, civil lines, Jaipur  </li>
 
           </ul>
         </div>

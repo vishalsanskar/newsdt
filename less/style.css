@@ -44,6 +44,9 @@ li {
 .heading_section {
   padding-bottom: 80px;
 }
+i {
+  color: #f1a501;
+}
 header.header {
   position: fixed;
   top: 0px;
