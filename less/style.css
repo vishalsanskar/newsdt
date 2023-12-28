@@ -151,10 +151,6 @@ section.hero-section #carouselExample.carousel.slide .carousel-inner .carousel-i
   background: linear-gradient(to bottom right, #2667b3 0, #4d96ec 70%);
   border-radius: 10px;
   background: linear-gradient(to right, #36415e 0, #1b1f30 100%);
-  position: absolute;
-  top: -55%;
-  right: 3%;
-  max-width: 366px;
 }
 #sdt-eduction .franchise-enquriy-from h4 {
   font-size: 25px;
@@ -324,8 +320,8 @@ footer .footer-map ul li {
 }
 footer .footer-map ul li iframe {
   width: 100%;
-  height: 307px;
-  padding-top: 111px;
+  height: 330px;
+  padding-top: 86px;
 }
 footer .footer-menu {
   padding-bottom: 20px;
@@ -338,6 +334,12 @@ footer .footer-menu ul li a {
   text-decoration: none;
   color: #333;
   font-weight: 600;
+}
+footer .footer-links.footer-featured-links ul {
+  columns: 2;
+}
+footer .footer-links.footer-featured-links {
+  padding-left: 50px;
 }
 .footer-copy-right {
   padding: 15px;
