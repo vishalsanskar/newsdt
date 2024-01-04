@@ -7,8 +7,8 @@
   --header-height: 80px;
   --primary-background-color: #f2f2f2;
   --secondary-background-color: #ccc;
-  --menu-font-color: #2b2b2b;
-  --active-color: #252a6a;
+  --menu-font-color: #1b4774;
+  --active-color: #1b4774;
   --heading-font: 40px;
   --text-content-color: #647495;
 }
@@ -275,6 +275,25 @@ a.owl-element {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.owl-item {
+  height: 400px;
+  border: solid 1px #1b4774;
+}
+.owl-nav button {
+  /* font-size: 59px; */
+  width: 30px;
+  height: 30px;
+  background: #f1a501 !important;
+}
+.owl-nav button span {
+  color: #fff;
+  font-size: 40px;
+  margin-top: -21px;
+  display: block;
+}
+.owl-dots {
+  display: none;
 }
 #newsletter .row.newsletter-part {
   background: linear-gradient(85.36deg, #A955DB 0.85%, #FF8648 101.42%);
@@ -869,6 +888,45 @@ main .text-expander {
 main .text-expander.active {
   display: inherit;
   height: auto;
+}
+section.inspiration.sec-spacing {
+  margin-top: 180px;
+}
+.inspiration-img-box {
+  display: flex;
+  padding: 116px 60px;
+  justify-content: space-around;
+  background: #1b477421;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.inspiration-right-side {
+  width: 40%;
+}
+.inspiration-left-side {
+  width: 40%;
+}
+.inspiration-content {
+  width: 80%;
+  text-align: center;
+  padding-top: 60px;
+}
+.inspiration-content h5 {
+  font-size: 25px;
+  line-height: 38px;
+  color: #1b4774;
+}
+.inspiration-left-side .card-body h5.card-title,
+.inspiration-right-side .card-body h5.card-title {
+  font-size: 30px;
+  color: #f1a501;
+}
+.inspiration-img-box .card-body {
+  text-align: center;
+}
+section.chdp-sec {
+  margin-top: 180px;
 }
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
