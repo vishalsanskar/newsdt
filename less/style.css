@@ -1085,6 +1085,18 @@ section.chdp-sec {
   font-weight: 600;
   padding-right: 5px;
 }
+.pro-logo {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+}
+.pro-logo img {
+  width: auto;
+  height: 100%;
+}
+section.franchise-programs-sec .container .row .franchise-program p {
+  color: #54595f;
+}
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex!important;
