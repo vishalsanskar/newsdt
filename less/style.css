@@ -1147,3 +1147,19 @@ section.affiliation-sec {
   color: #575c62;
   padding-top: 30px;
 }
+.col-lg-4.col-md-12.image-outer-box h3 {
+  margin-top: -47px;
+  margin-left: -69px;
+  /* color: red; */
+}
+.col-lg-4.col-md-12.image-outer-box h1 {
+  font-size: 24px;
+  display: block !important;
+  width: 100%;
+  text-align: center;
+  margin-top: -23px;
+}
+.col-lg-4.col-md-12.image-outer-box {
+  display: flex;
+  flex-wrap: wrap;
+}
