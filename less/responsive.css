@@ -3,6 +3,12 @@
         background-color: yellow;
     } */
 
+
+    header.header .navbar-nav .dropdown-menu {
+        left: 0% !important;
+     
+    }
+
 }
 
 @media (min-width:320px) and (max-width:767px){
