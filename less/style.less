@@ -149,6 +149,9 @@ header.header {
         }
    
         .header-main{
+            ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+                justify-content: end;
+            }
             .header-top-contact{
                 ul{
                     list-style: none;
@@ -168,6 +171,8 @@ header.header {
                     }
                     li.head-franchies-btn{
                         background: var(--color-primary);
+                        text-transform: uppercase;
+                        min-width: 255px;
                       a{
                           font-size: 16px;  
                           color: var(--text-secondary);
@@ -458,12 +463,13 @@ section.franchise-programs-sec{
                 border-radius: 18px;
                 box-shadow: 0 0 20px rgba(0,0,0,.2);
                 overflow: hidden;
+                height: 100%;
 
                 h1{
                     color: #252a6a;
-    font-size: 26px;
-    padding: 0px 0px;
-    margin-top: 17px;
+                    font-size: 26px;
+                    padding: 0px 0px;
+                    margin-top: 17px;
                 }
                 p{
                     color: var(--text-content-color);
