@@ -587,7 +587,7 @@
     <div class="container">
       <div class="row justify-content-around">
         <div class="heading_section text-center"  >
-          <h1 class="title-head">Sanskar School Franchise Programs</h1>
+          <h1 class="title-head">Sanskar School Franchise Brands</h1>
           <h4 class="sub-title"><span class="text-change3"></span></h4>
         </div>
 
@@ -625,12 +625,188 @@
   <!-- SDT Franchies Programs Section End -->
 
 
+  <section class="affiliation-sec">
+    <div class="container">
+      <div class="heading_section text-center" >
+        <h1 class="title-head" >Affiliation and Associations</h1>
+        <!-- <h4 class="sub-title">Leading Young India</h4> -->
+      </div>
+      <div class="row text-center">
+
+        <div class="col-md-4">
+          <div class="school-logo">
+            <div class="school-img-box">
+              <img src="./image/logo/cbs log.png">
+            </div>
+
+          
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="school-logo">
+            <div class="school-img-box">
+              <img src="./image/logo/iblogo.png">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="school-logo">
+            <div class="school-img-box">
+              <img src="./image/logo/igcselogo.png">
+            </div>
+          </div>
+       
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="international-university-sec">
+    <div class="container">
+      <div class="heading_section text-center" >
+        <h1 class="title-head" >Invternational and National University Partners</h1>
+        <!-- <h4 class="sub-title">Leading Young India</h4> -->
+      </div>
+<marquee behavior="scroll" direction="left">
+
+  <div class="school-program-logo-list">
+    
+
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/617.png">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/2560px-University_of_Hertfordshire_Logo.svg.png">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/Alliance_University_logo.jpg">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/asulogo.png">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/bathunivestiy.png">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/brock.png">
+             </div>
+              
+          </div>
+         
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/Clarkson-university-logo-green.png">
+             </div>
+              
+          </div>
+         
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/dculogo.png">
+             </div>
+              
+          </div>
+         
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/download.png">
+             </div>
+              
+          </div>
+         
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/griffith.png">
+             </div>
+              
+          </div>
+         
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/humber.png">
+             </div>
+              
+          </div>
+         
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/Montana_State_University_Logo.svg.png">
+             </div>
+              
+          </div>
+         
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/national-college-of-ireland-nci-logo-vector.png">
+             </div>
+              
+          </div>
+         
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/suloko.png">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/sydny.png">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/UCD-logo.png">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/University_College_Cork_logo.svg.png">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/westenlogo.png">
+             </div>
+              
+          </div>
+          <div class="item">
+             <div class="University-logo">
+              <img src="./image/logo/wikaot.png">
+             </div>
+              
+      
+      </div>
+    </div>
+  </marquee>
+  </section>
+
+
   <section class="every-day-story pt-0" >
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
               <div class="heading_section text-center" >
-                <h1 class="title-head" >Testimonials</h1>
+                <h1 class="title-head" >Parent Testimonials</h1>
                 <!-- <h4 class="sub-title">Leading Young India</h4> -->
               </div>
             </div>
@@ -968,6 +1144,42 @@
 		
 		$(document).on('click', '.owl-item>a', function() {
 		$owl.trigger('to.owl.carousel', $(this).data( 'position' ) 
+		);
+		
+	});
+
+  var $owl = $('.owl-carousel2');
+		
+		$owl.children().each( function( index ) {
+		  $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
+		});
+		
+		$owl.owlCarousel({
+			items: 4,
+			center: true,
+			loop: true,
+      margin:30,
+			responsiveClass:true,
+      autoplay:true,
+			responsive:{
+				0:{
+					items:1,
+					nav:true
+				},
+				767:{
+					items:3,
+          nav:true
+				},
+				992:{
+					items:6,
+          nav:true
+
+				}
+			}
+		});
+		
+		$(document).on('click', '.owl-item>a', function() {
+		$owl.trigger('to.owl.carousel2', $(this).data( 'position' ) 
 		);
 		
 	});
