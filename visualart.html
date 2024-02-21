@@ -43,7 +43,7 @@
           <div class="header-main">
             <div class="header-top-contact">
               <ul>
-                <li><span class="text-change2"></span> <span class="header-line">|</span> </li>
+                <li class="span-remove"><span class="text-change2"> </span> <span class="header-line">|</span> </li>
                 <li><i class="fa-solid fa-phone"></i> <a href="#">0141- 3168815</a> <span class="header-line">|</span></li>
                 <li><i class="fa-solid fa-envelope"></i> <a href="#">info@sankarschools.co.in</a></li>
                 <li class="head-franchies-btn"><a href="./franchise-enquiry.html">FRANCHISE <span class="text-change"></span> </a></li>
@@ -160,8 +160,8 @@
                       <li class="dropdown-heading">Engagement Program</li>
                       <li><a class="dropdown-menu-list" href="./parent-engagement-program.html">Parent Engagement Program</a></li>
                       <li><a class="dropdown-menu-list" href="./outreach-program.html">Outreach Program</a></li>
-                      <li><a class="dropdown-menu-list" href="./outreach-program.html">Competitive Program</a></li>
-                      <li><a class="dropdown-menu-list" href="./outreach-program.html">Student Exchange Program</a></li>
+                      <li><a class="dropdown-menu-list" href="./competitive-program.html">Competitive Program</a></li>
+                      <li><a class="dropdown-menu-list" href="./student-exchange.html">Student Exchange Program</a></li>
                     </ul>
                   </div>
                 </li>
@@ -566,6 +566,8 @@
     crossorigin="anonymous"></script>
     <!-- jquery min js -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
  
  
     <script>
@@ -602,6 +604,20 @@ $(document).ready(function() {
     }, false)
   })
 })()
+
+var typing=new Typed(".text-change", {
+       strings: ["", "opportunity", "Scope", "Enquiry", "Possibility", "Prospect"],
+       typeSpeed: 100,
+       backSpeed: 40,
+       loop: true,
+   });
+  
+  var typing=new Typed(".text-change2", {
+       strings: ["", "Strive Discover Transform", "Strive", "Discover", "Transform"],
+       typeSpeed: 100,
+       backSpeed: 40,
+       loop: true,
+   });
     </script>
 
 </body>

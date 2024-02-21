@@ -1265,3 +1265,6 @@ section.mission {
 .col-md-4.support-box-main {
   margin-bottom: 20px;
 }
+li.span-remove span:nth-child(2) {
+  display: none;
+}
