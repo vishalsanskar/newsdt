@@ -1321,3 +1321,12 @@ main .director-sc2 .profile-box2::after {
   height: 100%;
   z-index: 0 !important;
 }
+.fra-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.fra-img {
+  width: 100%;
+  height: 669px;
+}
