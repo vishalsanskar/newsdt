@@ -64,7 +64,7 @@
 
     
     .dropdown-menu.sub-menu-list {
-        min-width: 400px !important;
+        min-width: 300px !important;
         display: flex;
         flex-wrap: wrap;
         width: 100% !important;
@@ -85,6 +85,11 @@
 
 @media (min-width:320px) and (max-width:575px){
  
+    header.header .dropdown-menu.sub-menu-list {
+        display: flex!important;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
 
 }
 
@@ -109,6 +114,9 @@
     } */
 
 
+    header.header .dropdown-menu{
+        min-width: 10rem;
+    }
  
 }
 @media (min-width:768px) and (max-width:1024px){
