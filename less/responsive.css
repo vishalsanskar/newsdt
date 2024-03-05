@@ -80,8 +80,7 @@
         padding: 10px 25px;
         min-width: 210px;
     }
-
-   
+  
 
 }
 
@@ -96,6 +95,11 @@
     header.header .navbar-nav .dropdown-menu {
         height: 242px;
         overflow: scroll;
+    }
+    .dropdown-menu.sub-menu-list ul li a {
+        text-decoration: none;
+        color: #224d78;
+        line-height: 20px;
     }
 }
 
