@@ -71,6 +71,8 @@
     }
 
 
+
+
 }
 
 @media (min-width:320px) and (max-width:690px){
@@ -91,6 +93,10 @@
         row-gap: 10px;
     }
 
+    header.header .navbar-nav .dropdown-menu {
+        height: 242px;
+        overflow: scroll;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px){
