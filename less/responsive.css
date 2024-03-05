@@ -15,6 +15,9 @@
     left: 0%;
     right: 0%;
     }
+    .header-top-contact ul {
+        flex-wrap: wrap;
+    }
 
 }
 
@@ -71,6 +74,12 @@
 }
 
 @media (min-width:320px) and (max-width:690px){
+    header.header nav .header-main .header-top-contact ul li {
+        padding: 10px 25px;
+        min-width: 210px;
+    }
+
+   
 
 }
 
@@ -95,7 +104,9 @@
         text-align: center;
         padding-top: 40px;
     }
-  
+  /* .header-top-contact ul {
+        flex-wrap: wrap;
+    } */
 
 
  
