@@ -22,7 +22,7 @@ li {
   margin: 0px;
 }
 .sec-top-bottom {
-  padding: 100px 0px;
+  padding: 20px 0px;
   position: relative;
 }
 .title-head {
@@ -404,6 +404,21 @@ a.owl-element {
   border-radius: 15px;
   padding: 10px 50px;
   background: var(--primary-background-color);
+}
+section.school-about.sec-top-bottom.pb-0 {
+  padding: 60px 0px;
+}
+.asembly-img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.asembly-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 footer {
   background: #EAECEE;
@@ -791,11 +806,12 @@ main .director-sc.sec-top-bottom::before {
   top: 0;
 }
 section.director-sc.director-mt.sec-top-bottom {
-  margin-top: 100px;
+  margin-top: 50px;
   background: #f9f8f9;
 }
 section.director-sc.sec-top-bottom {
   padding: 50px 0px;
+  background: #f9f8f9;
 }
 section.director-sc.sec-top-bottom:before {
   content: '';
@@ -808,7 +824,7 @@ section.director-sc.sec-top-bottom:before {
 }
 .profile-box {
   background: #f9f8f9;
-  padding: 60px 0px;
+  padding: 20px 0px;
   position: relative;
 }
 .profile-box:after {
@@ -1026,7 +1042,7 @@ section.inspiration.sec-spacing {
 }
 .inspiration-img-box {
   display: flex;
-  padding: 116px 60px;
+  padding: 60px 60px;
   justify-content: space-around;
   background: #1b477421;
   margin-bottom: 100px;
@@ -1042,7 +1058,7 @@ section.inspiration.sec-spacing {
 .inspiration-content {
   width: 80%;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 25px;
 }
 .inspiration-content h5 {
   font-size: 25px;
@@ -1201,11 +1217,14 @@ section.mission {
   padding-top: 60px;
 }
 .inspiration-box-img {
-  height: 550px;
+  height: 400px;
+  width: 100%;
 }
 .inspiration-box-img img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 .salient-features ul li {
   line-height: 25px;
@@ -1509,4 +1528,21 @@ h2 {
   /* border: solid 2px #f1a501; */
   border-radius: 7px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+h5.modles-tag-line {
+  color: #1b4774;
+}
+.franchise-program.p-3 a {
+  text-decoration: none;
+}
+ul.dropdown-menus:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-right: solid 2px #dfdfdf;
+  z-index: 26;
+  width: 100%;
+  height: 90%;
+  transform: translate(0px, 4px);
 }
