@@ -209,6 +209,18 @@
         text-align: center;
     }
    
+    .inspiration-box-img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .inspiration-left-side .card-body h5.card-title, .inspiration-right-side .card-body h5.card-title {
+        font-size: 26px;
+        color: rgb(241, 165, 1);
+    }
+
+
+
 }
 @media (min-width:1024px) and (max-width:1400px){
     .carousel-inner {
@@ -289,8 +301,8 @@
     }
     
     .col-lg-4.col-md-12.image-outer-box .img-box {
-        width: 220px;
-        height: 220px;
+        width: 180px;
+        height: 180px;
     }
 
     .salient-features ul {
